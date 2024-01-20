@@ -1,0 +1,24 @@
+.hero {
+    height: 100vh;
+    background-image: url("./images/d9zjrjs1kxg81.png");
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #skills i {
+    height: 100px;
+    width: 100px;
+  }
+  
+  #portfolio img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  #about .img,
+  #about img,
+  .hire-text h2 {
+    position: relative;
+  }
