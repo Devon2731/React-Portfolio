@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillsSection from './SkillsSection.css';
 
 
 const SkillsSection = () => {

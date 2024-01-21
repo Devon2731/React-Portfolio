@@ -2,32 +2,3 @@
     height: 100px;
     width: 100px;
   }
-  
-  #portfolio img {
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  #about .img,
-  #about img,
-  .hire-text h2 {
-    position: relative;
-  }
-   /* Timeline background line */
-   #about .img::before {
-    content: "";
-    left: 50%;
-    width: 4px;
-    position: absolute;
-    height: calc(100% + 140px);
-    background: var(--gray-color);
-  }
-  
-  #about img,
-  #about .hire-text h2 {
-    width: 140px;
-  }
-  
-  #about .hire-text h2 {
-    height: 140px;
-  }

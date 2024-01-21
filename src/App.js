@@ -1,12 +1,22 @@
-import React from 'react'
-import PortfolioContainer from './components/PortfolioContainer';
+import React, { useState } from 'react';
+import Navbar from './Navbar'; 
+import HeroSection from './HeroSection'; 
+import About from './About';
+import CVSection from './CVSection';
+import SkillsSection from './SkillsSection';
+import Footer from './Footer'; 
 
-function App() {
+
+export default function App() {
+  const [isSomeConditionMet, setIsSomeConditionMet] = useState(false);
   return (
     <div>
-      <PortfolioContainer />
+      <Navbar />
+      <HeroSection />
+      <About />
+      <CVSection />
+      <SkillsSection />
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default App
