@@ -1,27 +1,23 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
-  "description": "This is react application to present my portfolio",
+  "description": "This is a React application to present my portfolio",
   "homepage": "https://github.com/Devon2731",
-  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Devon2731"
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0",
-    "dotenv": "^16.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.12"
   },
   "browserslist": {
     "production": [
@@ -34,14 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "keywords": [
-    "react",
-    "profile"
-  ],
-  "author": "Devon Whitaker",
-  "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }

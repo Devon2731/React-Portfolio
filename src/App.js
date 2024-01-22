@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import Navbar from './Navbar'; 
-import HeroSection from './HeroSection'; 
-import About from './About';
-import CVSection from './CVSection';
-import SkillsSection from './SkillsSection';
-import Footer from './Footer'; 
-import PortfolioSection from './PortfolioSection';
+// import React, { useState } from 'react';
+import Navbar from './components/Navbar'; 
+import HeroSection from './components/HeroSection'; 
+import About from './components/About';
+import CVSection from './components/CvSection';
+import SkillsSection from './components/SkillsSection';
+import Footer from './components/Footer'; 
+import PortfolioSection from './components/PortfolioSection';
 import './App.css';
 
 
-export default function App() {
-  const [isSomeConditionMet, setIsSomeConditionMet] = useState(false);
+function App() {
+  // const [isSomeConditionMet, setIsSomeConditionMet] = useState(false);
   return (
     <div>
       <Navbar />
-      
+
       <HeroSection />
       <SkillsSection />
       <PortfolioSection />
@@ -25,3 +25,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

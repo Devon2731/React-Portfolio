@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillsSection from './styles/SkillsSection.css';
+import SkillsSection from './styles/skills.css';
 
 
 const SkillsSection = () => {

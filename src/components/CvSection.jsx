@@ -1,5 +1,6 @@
 import React from 'react';
-import CurriculumVitaeSection from './styles/CVSection.css';
+import CurriculumVitaeSection from './styles/cvSection.css';
+import IMG_2138 from './assets/IMG_2138.jpeg';
 
 const CurriculumVitaeSection = () => {
   return (
@@ -12,12 +13,12 @@ const CurriculumVitaeSection = () => {
       </div>
       <div className="row">
         <div className="col-lg-4 mt-5 order-lg-0 order-1 text-center">
-          <img className="img-fluid rounded-circle border border-5 border-dark-subtle" src="./assets/IMG_2138.jpeg" alt="profile-img" />
+          <img className="img-fluid rounded-circle border border-5 border-dark-subtle" src={IMG_2138} alt="profile-img" />
           <h2 className="mt-3">Devon Whitaker</h2>
           <ul className="list-unstyled contact-info">
             <li><i className="fas fa-envelope me-2"></i> devon.whitaker27@gmail.com</li>
             <li><i className="fas fa-phone me-2"></i> 757-202-7700</li>
-            <li><i className="fas fa-map-marker-alt me-2"></i> 3808 Cranberry Ct, Virgnia Beach,VA 23456 </li>
+            <li><i className="fas fa-map-marker-alt me-2"></i> 3808 Cranberry Ct, Virginia Beach,VA 23456 </li>
           </ul>
           <ul className="social-icons my-5 d-flex justify-content-center">
             {/* Add your social media links here */}
