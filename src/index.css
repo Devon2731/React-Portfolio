@@ -1,0 +1,10 @@
+:root {
+    --white-color: #fff;
+    --bg-color: #fff;
+    --gray-color: #ccc;
+  }
+  
+  /* Changing background color */
+  body {
+    background: var(--bg-color) !important;
+  }

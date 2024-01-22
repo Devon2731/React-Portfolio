@@ -12,7 +12,7 @@ const CurriculumVitaeSection = () => {
       </div>
       <div className="row">
         <div className="col-lg-4 mt-5 order-lg-0 order-1 text-center">
-          <img className="img-fluid rounded-circle border border-5 border-dark-subtle" src="assets/images/IMG_2138.jpeg" alt="profile-img" />
+          <img className="img-fluid rounded-circle border border-5 border-dark-subtle" src="./assets/IMG_2138.jpeg" alt="profile-img" />
           <h2 className="mt-3">Devon Whitaker</h2>
           <ul className="list-unstyled contact-info">
             <li><i className="fas fa-envelope me-2"></i> devon.whitaker27@gmail.com</li>

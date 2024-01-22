@@ -22,3 +22,11 @@
 #about .hire-text h2 {
   height: 140px;
 }
+
+@media screen and (max-width: 668px) {
+  #about .hire-text h2 {
+    height: 70px;
+    width: 70px;
+  }
+  
+}

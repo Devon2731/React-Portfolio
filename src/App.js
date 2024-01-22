@@ -5,6 +5,8 @@ import About from './About';
 import CVSection from './CVSection';
 import SkillsSection from './SkillsSection';
 import Footer from './Footer'; 
+import PortfolioSection from './PortfolioSection';
+import './App.css';
 
 
 export default function App() {
@@ -12,10 +14,13 @@ export default function App() {
   return (
     <div>
       <Navbar />
+      
       <HeroSection />
+      <SkillsSection />
+      <PortfolioSection />
       <About />
       <CVSection />
-      <SkillsSection />
+
       <Footer />
     </div>
   );
