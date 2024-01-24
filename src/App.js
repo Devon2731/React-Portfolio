@@ -1,11 +1,11 @@
 
-import React from "react";
+// import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
 import About from './components/About';
 import Portfolio from './components/PortfolioSection';
 import Contact from './components/Contact';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 
@@ -23,6 +23,7 @@ function App() {
             <Route path="/React-Portfolio/" element={<About />} />
             <Route path="/React-Portfolio/about" element={<About />} />
             <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />
+            <Route path="/React-Portfolio/resume" element={<Resume />} />
             <Route path="/React-Portfolio/contact" element={<Contact />} />
             {/* <Route path="/React-Portfolio/resume" element={<Resume />} /> */}
           </Routes>

@@ -1,0 +1,28 @@
+.resume-section {
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+.resume-section h1 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+  }
+ 
+  .resume-margin {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
+  /* change font color to white */
+  .container{
+    color: white;
+  }
+
+  .container, h3{
+    text-align: center;
+    color: black;
+  }

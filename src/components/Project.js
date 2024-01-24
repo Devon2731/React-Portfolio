@@ -11,7 +11,7 @@ function Project(props) {
         <img src={props.imgSrc} className="card-img-top" alt={props.imgAlt} />
       </a>
       <div className="card-body">
-        {/* <h5 className="card-title">{props.title}</h5> */}
+       
         <p className="card-text">{props.description}</p>
         <a
           href={props.deployedLink}
