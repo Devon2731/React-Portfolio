@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
-import "../style/Header.css";
+import "./styles/header.css";
 
 // Header component
 function Header() {
   return (
-    // Header component
     <>
       <Container fluid className="bg-dark">
         <Row className="justify-content-center text-center mb-0">
@@ -21,13 +20,6 @@ function Header() {
               >
                 Devon Whitaker
               </Link>
-              <FontAwesomeIcon
-                icon={faChessKnight}
-                flip="horizontal"
-                className="fa-knight"
-                size="xl"
-                style={{ color: "#white" }}
-              />
             </h1>
           </Col>
         </Row>
@@ -36,5 +28,5 @@ function Header() {
     </>
   );
 }
-// Export Header
+
 export default Header;

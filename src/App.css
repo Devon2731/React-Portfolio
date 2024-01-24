@@ -11,12 +11,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(
-    to top right,
-    #fac90624 0%,
-    #ff660014 50%,
-    #cc330025 100%
-  );
+  background-image: url(./assets/d9zjrjs1kxg81.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
@@ -40,7 +36,7 @@ body {
 }
 
 .footer {
-  color: #fff;
+  color: green;
   text-align: center;
 }
 
