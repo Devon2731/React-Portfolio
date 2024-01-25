@@ -50,7 +50,7 @@ const Footer = () => {
         <section className="form-footer">
           <h5 className="designer-text">Designed with by Devon Whitaker 😎</h5>
           <p>
-            <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
+            <span className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</span>
           </p>
         </section>
       </div>

@@ -28,12 +28,12 @@
   font-weight: bold;
   text-align: center;
 }
-/* Styling for the about section container */
+
 #about {
   margin-bottom: 12rem;
 }
 
-/* Tablet view */
+
 @media (min-width: 768px) {
   .about-image {
     width: 250px;
@@ -41,7 +41,6 @@
   }
 }
 
-/* Desktop view */
 @media (min-width: 992px) {
   .about-image {
     width: 300px;
