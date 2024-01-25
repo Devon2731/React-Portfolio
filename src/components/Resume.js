@@ -26,13 +26,13 @@ function Resume() {
               </li>
               <li className="list-inline-item">
                 <strong>Libraries/Frameworks:</strong> React, jQuery, Bootstrap,
-                Material UI
+                
               </li>
               <li className="list-inline-item">
-                <strong>Databases:</strong> MongoDB, MySQL, PostgreSQL
+                <strong>Databases:</strong> MongoDB and MySQL
               </li>
               <li className="list-inline-item">
-                <strong>Tools/Platforms:</strong> Git, GitHub, Heroku, AWS,
+                <strong>Tools/Platforms:</strong> Git, GitHub, Heroku,
                 Netlify
               </li>
             </ul>

@@ -1,3 +1,4 @@
+// import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import avatar from "../assets/IMG_2138.jpeg";
 import "./styles/about.css";
