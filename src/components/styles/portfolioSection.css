@@ -1,0 +1,11 @@
+#portfolio img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  @media screen and (
+    max-width: 668px) {
+      #portfolio .card-wrapper {
+        width: 100% !important;
+      }
+  }
