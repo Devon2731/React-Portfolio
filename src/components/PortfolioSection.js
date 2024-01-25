@@ -42,10 +42,10 @@ function PortfolioSection() {
           {projects.map((project, index) => (
             <div className="col-md-4" key={index}>
               <div className="card mb-4">
-                <img src={project.image} className="card-img-top" alt={project.name} />
+                <img src={project.image} className="card-img-top" alt={`Screenshot of ${project.name} project`} />
                 <div className="card-body">
                   <h5 className="card-title">{project.name}</h5>
-                  <p className="card-text"></p>
+                  {project.description && <p className="card-text">{project.description}</p>}
                   <a href={project.github} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                     GitHub
                   </a>
